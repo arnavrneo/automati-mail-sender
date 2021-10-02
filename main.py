@@ -14,7 +14,7 @@ my_email = ""  # write email here
 my_pass = ""   # write pass here
 
 birthday = pandas.read_csv("birthdays.csv")
-dict_data = {(data_row["month"], data_row["day"]): data_row for (index, data_row) in birthday.iterrows()}  # IMP!!
+dict_data = {(data_row["month"], data_row["day"]): data_row for (index, data_row) in birthday.iterrows()}  
 
 letter_1 = open("letter_templates/letter_1.txt")
 letter_2 = open("letter_templates/letter_2.txt")
